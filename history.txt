@@ -1,0 +1,174 @@
+    1  ssh-keygen
+    2  cat .ssh/id_
+    3  cat .ssh/id_rsa.pub
+    4  ssh ec2-user@linux.itcareerhub.de
+    5  ssh ec2-user@linux.itcsreerhub.de
+    6  $ ssh ec2-user@linux.itcareerhub.de
+    7  ssh ec2-user@linux.itcareerhub.de
+    8  scp ec2-user@linux.itcareerhub.de:/opt/250425-wdm/Aljona/.process_management .
+    9  pwd
+   10  ssh ec2-user@linux.itcareerhub.de
+   11  ssh  ec2-user@linux.itcareerhub.de
+   12  ssh ec2-user@linux.itcareerhub.de
+   13  mkdir 1706
+   14  cd 1706
+   15  ls -l
+   16  git init
+   17  git config --global user.name "HrechkoAlyona"
+   18  git config --global user.email "olenahrechko2024@gmail.com"
+   19  echo "# 1706" >> README.md
+   20  ls -la
+   21  git status
+   22  git add README.md
+   23  git status
+   24  git commit -m "added file README.md"
+   25  git branch -M main
+   26  git remote add origin git@github.com:HrechkoAlyona/1706.git
+   27  git remote -v
+   28  git push -u origin main
+   29  echo "some text" >> README.md
+   30  touch file.txt
+   31  test
+   32  mkdir test
+   33  ls -l
+   34  git add .
+   35  git status
+   36  git commit -m "modified README.md+added data some text, created file.txt"
+   37  git push
+   38  git log
+   39  git log --oneline
+   40  git log --oneline --graph
+   41  cd ..
+   42  rm -rf 1706/
+   43  mkdir testing
+   44  cd testing
+   45  git init
+   46  echo "# testing" >> README.md
+   47  git status
+   48  git add .
+   49  git commit -m "added README"
+   50  git branch
+   51  [200~git branch -M main
+   52  ~git branch -M main
+   53  git branch -M main
+   54  git remote add origin git@github.com:HrechkoAlyona/testing.git
+   55  git push -u origin main
+   56  git log
+   57  mkdir git_intro
+   58  cd git_intro
+   59  git init
+   60  git branch -M main
+   61  cp ~/Desktop/cat.jpg .
+   62  git add cat.jpg
+   63  git commit -m "Added photo"
+   64  git remote add origin git@github.com:HrechkoAlyona/git_intro.git
+   65  git push -u origin main
+   66  cd ~
+   67  rm -rf .git
+   68  git branch
+   69  git rev-parse --show-toplevel
+   70  mkdir test
+   71  cd test
+   72  git init
+   73  ls -la
+   74  cp ~/Desktop/cat.jpg .
+   75  git add cat.jpg
+   76  git commit -m "Added photo"
+   77  git branch -M main
+   78  exit
+   79  mkdir git-branch
+   80  cd git-branch
+   81  git init
+   82  rm -rf .git
+   83  git checkout -b gitignore
+   84  cd ~/git-branch
+   85  git init
+   86  git checkout -b gitignore
+   87  nano .gitignore
+   88  curl -o .gitignore https://raw.githubusercontent.com/aliaskov/bashscripts/master/.gitignore
+   89  ls -a
+   90  git add .gitignore
+   91  git commit -m "Add .gitignore file in gitignore branch"
+   92  git remote add origin https://github.com/HrechkoAlyona/git-branch.git
+   93  git push -u origin gitignore
+   94  git push -u origin gitignore
+   95  cd git-branch
+   96  pwd
+   97  ls
+   98  mkdir git-branch
+   99  cd git-branch
+  100  cd ..
+  101  pwd
+  102  ls -la
+  103  rm -rf git-branch
+  104  rmdir git-branch
+  105  cd git-branch
+  106  cd . .
+  107  cd .
+  108  ssh ec2-user@linux.itcareerhub.de
+  109   ssh ec2-user@linux.itcareerhub.de
+  110  ssh ec2-user@linux.itcareerhub.de
+  111  scp ec2-user@linux.itcareerhub.de:/tmp/Aljona_file.txt ~/Desktop/
+  112  ssh ec2-user@linux.itcareerhub.de
+  113  ssh ec2-user@linux.itcareerhub.de
+  114  mkdir 25.06
+  115  cd 25.06
+  116  git init
+  117  echo "" > text.txt
+  118  ls
+  119  git status
+  120  git add text.txt
+  121  git status
+  122  git rm --cached
+  123  git rm —cached text.txt
+  124  git status
+  125  git rm --cached text.txt
+  126  git status
+  127  git add .
+  128  git comit -n "comit message"
+  129  git branch -m main
+  130  git commit -m "commit message"
+  131  git checkout -b test
+  132  git branch
+  133  $ ssh ec2-user@linux.itcareerhub.de
+  134  ssh ec2-user@linux.itcareerhub.de
+  135  ssh ec2-user@linux.itcareerhub.de
+  136  ssh ec2-user@linux.itcareerhub.de
+  137  ssh ec2-user@linux.itcareerhub.de
+  138  npm install -g sass
+  139  npm install -g sass
+  140  npm install -g sass
+  141  [200~ec2-user@linux.itcareerhub.de
+  142  ~ec2-user@linux.itcareerhub.de
+  143  ec2-user@linux.itcareerhub.de
+  144  ssh ec2-user@linux.itcareerhub.de
+  145  npm -v
+  146  $ npm install -g sass
+  147  node -v
+  148  nvm ls
+  149  nvm install --lts
+  150  nvm install 22
+  151  npm -v
+  152  npm i -g sass
+  153  npm install -g sass
+  154  ssh ec2-user@linux.itcareerhub.de
+  155  scp ec2-user@linux.itcareerhub.de:/opt/250425-wdm/Aljona/permission_checker.sh .
+  156  git clone https://github.com/HrechkoAlyona/myrepo.git
+  157  cd myrepo
+  158  echo "# Ignore node_modules" > .gitignore
+  159  echo "node_modules/" >> .gitignore
+  160  git add .gitignore
+  161  git commit -m "Add .gitignore"
+  162  git push origin main
+  163  git checkout -b feature
+  164  echo "# Проект" > README.md
+  165  echo "*.log" >> .gitignore
+  166  git add README.md .gitignore
+  167  git commit -m "Update README.md and .gitignore"
+  168  git push origin feature
+  169  git commit --amend -m "Update README.md and .gitignore ammend"
+  170  git push --force origin feature
+  171  git checkout main
+  172  git merge feature
+  173  git push origin main
+  174  history > history.txt
